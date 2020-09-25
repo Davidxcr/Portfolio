@@ -10,6 +10,7 @@
 :root{
   --first-color: #ff8300;
   --second-color: #0E2431;
+  --third-colour: #ffffff
 }
 
 /*===== Fuente y tipografia =====*/
@@ -136,7 +137,7 @@ img{
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--first-color);
+    background-color: var(--second-color);
     transition: .5s;
   }
 }
