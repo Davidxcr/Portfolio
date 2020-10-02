@@ -129,7 +129,7 @@ img{
   align-items: center;
   font-weight: var(--font-semi);
 }
-@media screen and (max-width: 420px){
+@media screen and (max-width: 768px){
   .nav__menu{
     position: fixed;
     top: var(--header-height);
