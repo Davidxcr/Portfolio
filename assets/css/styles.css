@@ -485,5 +485,6 @@ img{
   }
   .button{
     color: white;
+    background-color: var(--first-color);
   }
 }
