@@ -483,4 +483,7 @@ img{
   .home__img{
     right: 10%;
   }
+  .button{
+    color: white;
+  }
 }
