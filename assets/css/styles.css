@@ -8,9 +8,9 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #FF8300;
+  --first-color: #ff8300;
   --second-color: #0E2431;
-  --third-colour: #FFFFFF
+  --third-colour: #ffffff
 }
 
 /*===== Fuente y tipografia =====*/
@@ -456,6 +456,22 @@ img{
   }
   .contact__container{
     justify-items: center;
+  }
+  .contact__button{
+    display: block;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
   }
 }
 
