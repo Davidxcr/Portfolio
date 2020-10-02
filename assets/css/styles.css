@@ -6,11 +6,11 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
   --first-color: #ff8300;
   --second-color: #0E2431;
-  --third-colour: #ffffff
+  --third-colour: #fff;
 }
 
 /*===== Fuente y tipografia =====*/
