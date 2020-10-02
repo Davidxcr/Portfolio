@@ -483,6 +483,8 @@ img{
   .home__img{
     right: 10%;
   }
+}
+@media screen and (min-width: 420px){
   .button{
     color: white;
     background-color: var(--first-color);
