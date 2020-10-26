@@ -341,6 +341,9 @@ img{
   outline: none;
   margin-bottom: var(--mb-4);
 }
+.contact_textarea {
+  font-family: Poppins, Monteserat;
+}
 .contact__button{
   display: block;
   border: none;
