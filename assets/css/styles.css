@@ -372,6 +372,16 @@ img{
   font-weight: var(--font-semi);
   padding: 2rem 0;
 }
+
+.footers {
+  //float:left;
+  width: 5%;
+  display: inline-block;
+}
+
+.logos{
+    vertical-align: middle;
+}
 .footer__title{
   font-size: 2rem;
   margin-bottom: var(--mb-4);
