@@ -256,7 +256,11 @@ img{
   width: 200px;
   border-radius: .5rem;
 }
-
+.about_logo{
+  justify-content: center;
+  margin: auto;
+  top: 3rem;
+}
 /* ===== SKILLS =====*/
 .skills__container{
   row-gap: 2rem;
