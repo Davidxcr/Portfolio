@@ -162,6 +162,7 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
+  size: 2%;
 
 }
 .nav__toggle{
