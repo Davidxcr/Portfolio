@@ -24,7 +24,7 @@
   :root{
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
-    --normal-font-size: 1rem;
+    --normal-font-size: 1.5rem;
   }
 }
 
@@ -195,7 +195,7 @@ img{
   align-self: center;
 }
 .home__title1 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: var(--normal-font-size);
   font-family: Montserrat;
   margin-bottom: var(--mb-5);
@@ -378,13 +378,11 @@ img{
 }
 
 .footers {
-  //float:left;
-  width: 15%;
+  float:none;
+  width: 10%;
+  position: relative;
+  align-content: right;
   display: inline-block;
-}
-
-.logos{
-    vertical-align: middle;
 }
 .footer__title{
   font-size: 2rem;
