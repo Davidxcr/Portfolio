@@ -215,7 +215,7 @@ img{
 .home__social-icon{
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 1.5rem;q1
   color: var(--second-color);
 }
 .home__social-icon:hover{
