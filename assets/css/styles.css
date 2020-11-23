@@ -381,7 +381,7 @@ img{
   float:none;
   width: 10%;
   position: relative;
-  align-content: center;
+  align-content: right;
   display: inline-block;
 }
 .footer__title{
