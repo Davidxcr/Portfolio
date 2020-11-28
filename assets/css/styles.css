@@ -453,7 +453,7 @@ img{
   .home__img{
     width: 457px;
     bottom: 15%;
-    right: 20%;
+    align-items:flex-end;
   }
 
   .about__container, .skills__container{
