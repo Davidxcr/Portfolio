@@ -498,7 +498,7 @@ img{
     margin-right: auto;
   }
 }
-@media screen and (min-width: 420px){
+@media screen and (min-width: 320px){
   .button{
     color: white;
     background-color: var(--first-color);
