@@ -453,6 +453,7 @@ img{
   .home__img{
     width: 400px;
     bottom: 10%;
+    right: -20px;
   }
 
   .about__container, .skills__container{
@@ -508,6 +509,6 @@ img{
   }
   .home__img {
     width: 200px;
-
+    right: -20px;
   }
 }
