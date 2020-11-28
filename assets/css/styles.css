@@ -225,7 +225,7 @@ img{
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  width: 245px;
 }
 
 /*BUTTONS*/
@@ -496,9 +496,6 @@ img{
   .bd-grid{
     margin-left: auto;
     margin-right: auto;
-  }
-  .home__img{
-    right: 10%;
   }
 }
 @media screen and (min-width: 420px){
