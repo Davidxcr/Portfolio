@@ -498,7 +498,16 @@ img{
     margin-right: auto;
   }
 }
-@media (max-width: 320px){
+@media (min-width: 360px){
+  .button{
+    color: white;
+    background-color: var(--first-color);
+  }
+  .home__img{
+    width: 240px;
+  }
+}
+@media (min-width: 300px){
   .button{
     color: white;
     background-color: var(--first-color);
