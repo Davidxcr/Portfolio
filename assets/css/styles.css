@@ -223,7 +223,7 @@ img{
 }
 .home__img{
   position: absolute;
-  right: -30px;
+  right: -20px;
   bottom: 0;
   width: 260px;
 }
@@ -508,5 +508,6 @@ img{
   }
   .home__img {
     width: 200px;
+
   }
 }
