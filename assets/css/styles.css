@@ -503,4 +503,7 @@ img{
     color: white;
     background-color: var(--first-color);
   }
+  .home__img{
+    width: 220px;
+  }
 }
