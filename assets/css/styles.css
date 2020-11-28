@@ -226,7 +226,6 @@ img{
   right: 0;
   bottom: 0;
   width: 260px;
-  padding-left: 10px;
 }
 
 /*BUTTONS*/
@@ -309,7 +308,7 @@ img{
   width: 85%;
 }
 .skills__js{
-  width: 10%;
+  width: 20%;
 }
 .skills__ux{
   width: 65%;
@@ -507,5 +506,6 @@ img{
   .button{
     color: white;
     background-color: var(--first-color);
+    padding: 10px;
   }
 }
