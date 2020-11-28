@@ -223,7 +223,7 @@ img{
 }
 .home__img{
   position: absolute;
-  right: 10%;
+  right: 0;
   bottom: 0;
   width: 260px;
 }
@@ -452,7 +452,7 @@ img{
   }
   .home__img{
     width: 400px;
-    bottom: 15%;
+    bottom: 10%;
   }
 
   .about__container, .skills__container{
