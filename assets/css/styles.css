@@ -223,7 +223,7 @@ img{
 }
 .home__img{
   position: absolute;
-  right: -20px;
+  right: 0;
   bottom: 0;
   width: 260px;
 }
@@ -451,9 +451,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 400px;
-    bottom: 10%;
-    right: -20px;
+    width: 457px;
+    bottom: 15%;
   }
 
   .about__container, .skills__container{
@@ -502,13 +501,9 @@ img{
     right: 10%;
   }
 }
-@media screen and (max-width: 320px){
+@media screen and (min-width: 420px){
   .button{
     color: white;
     background-color: var(--first-color);
-  }
-  .home__img {
-    width: 200px;
-    right: 20px;
   }
 }
