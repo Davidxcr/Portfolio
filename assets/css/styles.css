@@ -451,9 +451,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
+    width: 400px;
     bottom: 15%;
-    align-items:flex-end;
   }
 
   .about__container, .skills__container{
@@ -502,9 +501,12 @@ img{
     right: 10%;
   }
 }
-@media screen and (min-width: 420px){
+@media screen and (max-width: 320px){
   .button{
     color: white;
     background-color: var(--first-color);
+  }
+  .home__img {
+    width: 200px;
   }
 }
