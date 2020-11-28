@@ -509,6 +509,6 @@ img{
   }
   .home__img {
     width: 200px;
-    right: -20px;
+    right: 20px;
   }
 }
