@@ -453,7 +453,6 @@ img{
   .home__img{
     width: 457px;
     bottom: 15%;
-    padding-right: 25px;
   }
 
   .about__container, .skills__container{
@@ -506,6 +505,5 @@ img{
   .button{
     color: white;
     background-color: var(--first-color);
-    padding: 10px;
   }
 }
