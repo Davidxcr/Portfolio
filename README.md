@@ -1,3 +1,7 @@
-My Portfolio Website.
-Hello, World! I'm Oluwafemi david, I build web applications and create content for passionate individuals and brands that want to make their projects have a positive impact on the world.
-I'll be building this using HTML, CSS and Javascript, i'll also try to use some javascript libraries as this is a learning opportunity for me.
+# Portfolio Responsive Complete
+## [Watch it on youtube](https://youtu.be/AKNvTxWOdKw)
+### Portfolio responsive complete
+A clean and nice web portfolio for designer or developer. That includes almost everything you want to show. At first, your name, links to social networks and a great image. Then the About section displays more information about you. Then the list of Skills it offers. It also has a section where it shows some recent work. And at the bottom it has a form, and at the end with a footer.
+
+Don't forget to join the channel for more videos like this.
+[Bedimcode](https://www.youtube.com/c/Bedimcode)

@@ -10,12 +10,12 @@
 :root{
   --first-color: #ff8300;
   --second-color: #0E2431;
-  --third-colour: #fff;
+  --third-color: #fff;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Typography =====*/
 :root{
-  --body-font: 'Poppins', 'Montserrat';
+  --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -24,7 +24,7 @@
   :root{
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
-    --normal-font-size: 1.0rem;
+    --normal-font-size: 1rem;
   }
 }
 
@@ -162,7 +162,6 @@ img{
 }
 .nav__logo{
   color: var(--second-color);
-
 }
 .nav__toggle{
   color: var(--second-color);
@@ -194,16 +193,13 @@ img{
 .home__data{
   align-self: center;
 }
-.home__title1 {
-  font-size: 20px;
-  font-weight: var(--normal-font-size);
-  font-family: Montserrat;
-  margin-bottom: var(--mb-5);
-  padding-top: var(--mb-15);
-}
 .home__title{
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+}
+.home__title2{
+  font-size: 1rem;
+  font-weight: 300;
 }
 .home__title-color{
   color: var(--first-color);
@@ -225,7 +221,7 @@ img{
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 245px;
+  width: 295px;
 }
 
 /*BUTTONS*/
@@ -256,11 +252,7 @@ img{
   width: 200px;
   border-radius: .5rem;
 }
-.about_logo{
-  justify-content: center;
-  margin: auto;
-  top: 3rem;
-}
+
 /* ===== SKILLS =====*/
 .skills__container{
   row-gap: 2rem;
@@ -308,10 +300,10 @@ img{
   width: 85%;
 }
 .skills__js{
-  width: 20%;
+  width: 65%;
 }
 .skills__ux{
-  width: 65%;
+  width: 85%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -345,9 +337,6 @@ img{
   outline: none;
   margin-bottom: var(--mb-4);
 }
-.contact_textarea {
-  font-family: Poppins, Monteserat;
-}
 .contact__button{
   display: block;
   border: none;
@@ -355,17 +344,6 @@ img{
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
-}
-.button{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: .75rem 2.5rem;
-  font-weight: var(--font-semi);
-  border-radius: .5rem;
-}
-.button:hover{
-  box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
 /* ===== FOOTER =====*/
@@ -376,17 +354,10 @@ img{
   font-weight: var(--font-semi);
   padding: 2rem 0;
 }
-
-.footers {
-  float:none;
-  width: 10%;
-  position: relative;
-  align-content: right;
-  display: inline-block;
-}
 .footer__title{
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: var(--mb-4);
+  color: #ff8300;
 }
 .footer__social{
   margin-bottom: var(--mb-4);
@@ -396,9 +367,10 @@ img{
   color: #ff8300;
   margin: 0 var(--mb-2)
 }
-.little {
-  justify-self: center;
+.footer__icon:hover {
+  color: #fff;
 }
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
@@ -452,7 +424,7 @@ img{
   }
   .home__img{
     width: 457px;
-    bottom: 15%;
+    bottom: 13%;
   }
 
   .about__container, .skills__container{
@@ -474,45 +446,14 @@ img{
   .contact__container{
     justify-items: center;
   }
-  .contact__button{
-    display: block;
-    border: none;
-    outline: none;
-    font-size: var(--normal-font-size);
-    cursor: pointer;
-    margin-left: auto;
-  }
-  .button{
-    display: inline-block;
-    background-color: var(--first-color);
-    color: #fff;
-    padding: .75rem 2.5rem;
-    font-weight: var(--font-semi);
-    border-radius: .5rem;
-  }
 }
 
-@media (min-width: 1024px){
+@media screen and (min-width: 1024px){
   .bd-grid{
     margin-left: auto;
     margin-right: auto;
   }
-}
-@media (min-width: 360px){
-  .button{
-    color: white;
-    background-color: var(--first-color);
-  }
   .home__img{
-    width: 240px;
-  }
-}
-@media (min-width: 300px){
-  .button{
-    color: white;
-    background-color: var(--first-color);
-  }
-  .home__img{
-    width: 200px;
+    right: 10%;
   }
 }
