@@ -1,1 +1,3 @@
-My Second attempt at redesigning my portfolio website, Hopefully i finish it this time.
+My second attempt at redesigning my Portfolio Website. Hopefully i finish this time.
+
+http://codesbydavid.netlify.app
