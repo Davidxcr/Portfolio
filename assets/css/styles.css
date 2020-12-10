@@ -138,7 +138,7 @@ img{
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: var(--first-color);
     transition: .5s;
   }
 }
@@ -147,7 +147,7 @@ img{
 }
 .nav__link{
   position: relative;
-  color: #ff8300;
+  color: var(--second-color);
 }
 .nav__link:hover{
   position: relative;
@@ -165,7 +165,7 @@ img{
   color: var(--second-color);
 }
 .nav__toggle{
-  color: var(--second-color);
+  color: var(--first-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -178,7 +178,7 @@ img{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: var(--second-color);
 }
 
 /*=== Show menu ===*/
