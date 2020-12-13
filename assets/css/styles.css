@@ -253,7 +253,7 @@ img{
   border-radius: .5rem;
 }
 
-/* ===== SKILLS =====*/
+/* ===== TECHNOLOGIES =====*/
 .skill__container{
   display: flex;
   row-gap: 2rem;
@@ -272,7 +272,7 @@ img{
   margin-bottom: var(--mb-4);
 }
 
-/* ===== WORK =====*/
+/* ===== PROJECT =====*/
 .work__container{
   row-gap: 2rem;
 }
