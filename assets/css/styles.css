@@ -212,7 +212,7 @@ img{
 .home__social-icon{
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   color: var(--second-color);
 }
 .home__social-icon:hover{
@@ -417,5 +417,25 @@ img{
   }
   .home__img{
     right: 10%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .bd-grid{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home__img{
+    width: 220px;
+  }
+  .home__social{
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+  .home__social-icon{
+    margin-bottom: 0;
+    margin-right: var(--mb-4);
   }
 }
