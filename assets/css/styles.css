@@ -303,6 +303,10 @@ img{
   cursor: pointer;
   margin-left: auto;
 }
+.contact__img{
+  width: 70%;
+  border-radius: .5rem;
+}
 
 /* ===== FOOTER =====*/
 .footer{
