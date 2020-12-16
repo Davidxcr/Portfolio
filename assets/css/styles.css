@@ -60,7 +60,7 @@ body{
   color: var(--second-color);
 }
 h1,h2,p{
-  margin: 0;
+  margin: 5px;
 }
 ul{
   margin: 0;
@@ -69,6 +69,7 @@ ul{
 }
 a{
   text-decoration: none;
+  font-family: 'Poiret One';
 }
 img{
   max-width: 100%;
@@ -290,17 +291,11 @@ img{
 }
 
 /* ===== CONTACT =====*/
-.contact__input{
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
+.contact__container{
+  row-gap: 2rem;
+  text-align: center;
 }
-.contact__button{
+.contact__data{
   display: block;
   border: none;
   outline: none;
