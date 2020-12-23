@@ -54,4 +54,4 @@ sr.reveal('.technologies__img',{delay: 600});
 sr.reveal('.portfolio__img',{interval: 200}); 
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__img',{interval: 200}); 
+sr.reveal('.contact__img',{interval: 200});
