@@ -29,7 +29,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 2000,
+    duration: 1200,
     reset: true
 });
 
@@ -51,7 +51,7 @@ sr.reveal('.technologies__data',{interval: 200});
 sr.reveal('.technologies__img',{delay: 600});
 
 /*SCROLL WORK*/
-sr.reveal('.portfolio__img',{interval: 200}); 
+sr.reveal('.portfolio__img',{interval: 120}); 
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__img',{interval: 200});
