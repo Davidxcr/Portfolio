@@ -419,6 +419,17 @@ img{
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
   }
+  
+  .new__link{
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgba(229,89,71,.2)
+  }
   .contact__form{
     width: 360px;
   }
@@ -454,5 +465,15 @@ img{
   .home__social-icon{
     margin-bottom: 0;
     margin-right: var(--mb-4);
+  }
+  .new__link{
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgba(229,89,71,.2)
   }
 }
