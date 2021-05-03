@@ -4,5 +4,6 @@ I employed a clean and minimal design throughout the website, making use of only
 I have also included links to some small projects i have worked on while learning Web Development and Python.
 
 Feel free to use this code as you wish, let me see what you come up with.
+I'll continue to make changes to this is i learn more.
 
 ......David Codes.......
