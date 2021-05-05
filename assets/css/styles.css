@@ -5,14 +5,12 @@
   --header-height: 3rem;
   --font-semi: 600;
 }
-
 /*===== Colors =====*/
 :root{
-  --first-color: #ff8300;
+  --first-color: #FF8300;
   --second-color: #0E2431;
-  --third-color: #fff;
+  --third-color: #FFFFFF;
 }
-
 /*===== Typography =====*/ 
 :root{
   --body-font: 'Poiret One', sans-serif;
@@ -27,7 +25,6 @@
     --normal-font-size: 1.25rem;
   }
 }
-
 /*===== Margenes =====*/
 :root{
   --mb-1: 0.5rem;
@@ -37,7 +34,6 @@
   --mb-5: 2.5rem;
   --mb-6: 3rem;
 }
-
 /*===== z index =====*/
 :root{
   --z-back: -10;
@@ -45,7 +41,6 @@
   --z-tooltip: 10;
   --z-fixed: 100;
 }
-
 /*===== BASE =====*/
 *,::before,::after{
   box-sizing: border-box;
@@ -76,7 +71,6 @@ img{
   height: auto;
   display: block;
 }
-
 /*===== CLASS CSS ===== */
 .section-title{
   position: relative;
@@ -101,7 +95,6 @@ img{
   padding-top: 3rem;
   padding-bottom: 2rem;
 }
-
 /*===== LAYOUT =====*/
 .bd-grid{
   max-width: 1024px;
@@ -169,7 +162,6 @@ img{
   font-size: 1.5rem;
   cursor: pointer;
 }
-
 /*Active menu*/
 .active::after{
   position: absolute;
@@ -180,12 +172,10 @@ img{
   top: 2rem;
   background-color: var(--second-color);
 }
-
 /*=== Show menu ===*/
 .show{
   right: 0;
 }
-
 /*===== HOME =====*/
 .home{
   height: calc(100vh - 3rem);
@@ -224,7 +214,6 @@ img{
   bottom: 0;
   width: 295px;
 }
-
 /*BUTTONS*/
 .button{
   display: inline-block;
@@ -237,7 +226,6 @@ img{
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
-
 /* ===== ABOUT =====*/
 .about__container{
   row-gap: 2rem;
@@ -253,14 +241,12 @@ img{
   width: 200px;
   border-radius: .5rem;
 }
-
 /* ===== TECHNOLOGIES =====*/
 .skill__container{
   display: flex;
   row-gap: 2rem;
   overflow: hidden;
 }
-
 .skill__img{
   border-radius: .5rem;
   overflow: hidden;
@@ -272,8 +258,7 @@ img{
 .skill__text {
   margin-bottom: var(--mb-4);
 }
-
-/* ===== PORTFOLIO =====*/
+/* ===== PROJECTS =====*/
 .work__container{
   row-gap: 2rem;
 }
@@ -285,7 +270,6 @@ img{
   border-radius: .5rem;
   overflow: hidden;
 }
-
 .work__img:hover .new__link{
   bottom: 0;
 }
@@ -306,7 +290,6 @@ img{
 .work__img img:hover{
   transform: scale(1.1);
 }
-
 /* ===== CONTACT =====*/
 .contact__container{
   row-gap: 2rem;
@@ -324,7 +307,6 @@ img{
   width: 70%;
   border-radius: .5rem;
 }
-
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
@@ -349,7 +331,6 @@ img{
 .footer__icon:hover {
   color: #fff;
 }
-
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
@@ -366,7 +347,6 @@ img{
     width: 80px;
     top: 3rem;
   }
-
   .nav{
     height: calc(var(--header-height) + 1rem);
   }
@@ -405,7 +385,6 @@ img{
     width: 457px;
     bottom: 13%;
   }
-
   .about__container, .skills__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -419,7 +398,6 @@ img{
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
   }
-  
   .new__link{
   position: absolute;
   bottom: -100%;
@@ -437,7 +415,6 @@ img{
     justify-items: center;
   }
 }
-
 @media screen and (min-width: 1024px){
   .bd-grid{
     margin-left: auto;
@@ -447,7 +424,6 @@ img{
     right: 10%;
   }
 }
-
 @media screen and (max-width: 320px){
   .bd-grid{
     margin-left: auto;
