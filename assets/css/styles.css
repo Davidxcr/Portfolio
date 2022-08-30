@@ -430,7 +430,7 @@ img {
     right: 10%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 390px) {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
@@ -441,7 +441,7 @@ img {
   .home__social {
     padding-top: 0;
     padding-bottom: 2.5rem;
-    flex-direction: column;
+    flex-direction: row;
     align-self: flex-end;
   }
   .home__social-icon {
