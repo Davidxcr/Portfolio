@@ -379,7 +379,7 @@ img {
   .home__social {
     padding-top: 0;
     padding-bottom: 2.5rem;
-    flex-direction: row;
+    flex-direction: column;
     align-self: flex-end;
   }
   .home__social-icon {
@@ -441,7 +441,7 @@ img {
   .home__social {
     padding-top: 0;
     padding-bottom: 2.5rem;
-    flex-direction: row;
+    flex-direction: column;
     align-self: flex-end;
   }
   .home__social-icon {
