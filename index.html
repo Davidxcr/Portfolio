@@ -1,212 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="favicon.png">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png">
 
-        <!-- =====BOX ICONS=====-->
-        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS=====-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
 
-        <title>Oluwafemi David | Developer</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <title>Oluwafemi David | Developer</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"><img src="assets/img/logo.png" alt="Logo"></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#technologies" class="nav__link">Technologies</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">.
+            <div class="home__data">
+                <h3 class="home__title2">Hello, I'm <span class="home__title-color">Oluwafemi David</span></h3>
+                <h1 class="home__title"> Techie,<br> Creator, <br> Developer.</h1>
+
+                <a href="#contact" class="button">Contact Me</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://evolvwithdavid.com" class="home__social-icon" target="_blank"><i
+                        class='bx bxl-globe'></i></a>
+                <a href="https://www.linkedin.com/in/david-oluwafemi-olatunji-716123ab/" target="_blank"
+                    class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/davidcodes_/" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/Davidxcr" class="home__social-icon" target="_blank"><i
+                        class='bx bxl-github'></i></a>
+                <a href="https://twitter.com/davidcodes_" class="home__social-icon" target="_blank"><i
+                        class='bx bxl-twitter'></i></a>
+                <a href="https://facebook.com/codes.david" class="home__social-icon" target="_blank"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://www.tiktok.com/@davidcodes_?_t=8VHCVcRJWu3&_r=1" class="home__social-icon"
+                    target="_blank"><i class='bx bxl-tiktok'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/home-image.png" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.png" alt="">
+                </div>
                 <div>
-                    <a href="#" class="nav__logo"><img src="assets/img/logo.png" alt="Logo"></a>
-                </div>
+                    <h2 class="about__subtitle">I'm Oluwafemi David 👋</h2>
+                    <p class="about__text">
+                        Hello there 👋, I am a Software Engineer that enjoys solving problems and leveraging technology
+                        to create smiles and awe. I enjoy the process of learning new technologies and trying to figure
+                        out how to make them work.
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#technologies" class="nav__link">Technologies</a></li>
-                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+                        Prior to software engineering, I worked in the in the Financial Services industry as an IT
+                        consultant and Onsite Desk Support Technician. If I am not coding, I am either watching a movie
+                        with family or playing games(soccer) with friends.
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+                        My technical skills include the following:
+                        • Programming Languages: JavaScript, Python
+                        • Front-End Development: React, Redux, jQuery, Next.js, HTML, CSS, Material UI, SASS
+                        • Back-End Development: MySQL, MongoDB, Express, Node.js.
+                        • Testing/Deployment: React Testing Framework, Pytest
+                        • Other: Git, Object-Oriented Programming, Excel, WordPress
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">.
-                <div class="home__data">
-                    <h3 class="home__title2">Hello, I'm <span class="home__title-color">Oluwafemi David</span></h3>
-                    <h1 class="home__title"> Techie,<br> Creator, <br> Developer.</h1>
+                    </p>
+                    <br>
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/oluwafemidavid/" target="_blank"
+                            class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/davidcodes_/" target="_blank" class="home__social-icon"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/Davidxcr" class="home__social-icon" target="_blank"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://twitter.com/davidcodes_" class="home__social-icon" target="_blank"><i
+                                class='bx bxl-twitter'></i></a>
+                        <a href="https://facebook.com/codes.david" class="home__social-icon" target="_blank"><i
+                                class='bx bxl-facebook'></i></a>
+                        <a href="https://www.tiktok.com/@davidcodes_?_t=8VHCVcRJWu3&_r=1" class="home__social-icon"
+                            target="_blank"><i class='bx bxl-tiktok'></i></a>
 
-                    <a href="#contact" class="button">Contact Me</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://evolvwithdavid.com" class="home__social-icon" target="_blank"><i class='bx bxl-globe' ></i></a>
-                    <a href="https://www.linkedin.com/in/david-oluwafemi-olatunji-716123ab/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.instagram.com/davidcodes_/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://github.com/Davidxcr" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://twitter.com/davidcodes_" class="home__social-icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
-                    <a href="https://facebook.com/codes.david" class="home__social-icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
-                    <a href="https://www.tiktok.com/@davidcodes_?_t=8VHCVcRJWu3&_r=1" class="home__social-icon" target="_blank"><i class='bx bxl-tiktok'></i></a>
-                </div>
-
-                <div class="home__img">    
-                    <img src="assets/img/home-image.png" alt="">
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.png" alt="">
-                    </div>
-                    <div>
-                        <h2 class="about__subtitle">I'm Oluwafemi David 👋</h2>
-                        <p class="about__text">
-                        I am an Onsite Services Engineer. I love creating beautiful functional Web applications for clients. I focus on improving user enagement and satisfaction. When I am not at work, I enjoy working out, watching movies and hanging out with friends. I am also working on getting proficient at working on backend services.
-                        </p>
-                        <br>
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/oluwafemidavid/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://www.instagram.com/davidcodes_/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                            <a href="https://github.com/Davidxcr" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
-                            <a href="https://twitter.com/davidcodes_" class="home__social-icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
-                            <a href="https://facebook.com/codes.david" class="home__social-icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
-                            <a href="https://www.tiktok.com/@davidcodes_?_t=8VHCVcRJWu3&_r=1" class="home__social-icon" target="_blank"><i class='bx bxl-tiktok'></i></a>
-
-                        </div>
-                    </div>        
-                </div>
-            </section>
-
-            <!--===== TECHNOLOGIES =====-->
-            <section class="skill section" id="technologies">
-                <h2 class="section-title">Technologies</h2>
-                <div class="skill__container bd-grid">    
-                    <div class="skill__img">
-                        <img src="assets/img/skills1.png" alt=""></a>
-                    </div>
-                    <div class="skill__img">
-                        <img src="assets/img/skills2.png" alt=""></a>
-                    </div>
-                    <div class="skill__img">
-                        <img src="assets/img/skills3.png" alt="" width="100%">
-                    </div>
-                    <div class="skill__img">
-                        <img src="assets/img/skills4.png" alt="" width="75%">
-                    </div>
-                    <div class="skill__img">
-                        <img src="assets/img/skills5.png" alt="" width="150%">
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== PORTFOLIO / PROJECTS =====-->
-            <section class="work section" id="projects">
-                <h2 class="section-title">Projects</h2>
+        <!--===== TECHNOLOGIES =====-->
+        <section class="skill section" id="technologies">
+            <h2 class="section-title">Technologies</h2>
+            <div class="skill__container bd-grid">
+                <div class="skill__img">
+                    <img src="assets/img/skills1.png" alt=""></a>
+                </div>
+                <div class="skill__img">
+                    <img src="assets/img/skills2.png" alt=""></a>
+                </div>
+                <div class="skill__img">
+                    <img src="assets/img/skills3.png" alt="" width="100%">
+                </div>
+                <div class="skill__img">
+                    <img src="assets/img/skills4.png" alt="" width="75%">
+                </div>
+                <div class="skill__img">
+                    <img src="assets/img/skills5.png" alt="" width="150%">
+                </div>
+            </div>
+        </section>
 
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/portfolio.png" alt="portfolio screenshot">
+        <!--===== PORTFOLIO / PROJECTS =====-->
+        <section class="work section" id="projects">
+            <h2 class="section-title">Projects</h2>
 
-                        <div class="new__link">
-                            <a href="https://oluwafemidavid.me" class="button"> PORTFOLIO</a>
-                        </div>
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/snow-storm.jpg" alt="weather app">
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="assets/img/portfolio.png" alt="portfolio screenshot">
 
-                        <div class="new__link">
-                            <a href="https://github.com/Davidxcr/python/blob/master/Weather_Report.py" class="button">WEATHER APP</a>
-                        </div>
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/store.jpg" alt="store front">
-
-                        <div class="new__link">
-                            <a href="https://sleepy-brown-e70e1b.netlify.app/" class="button">STORE APP</a>
-                        </div>
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="YelpCamp">
-
-                        <div class="new__link">
-                            <a href="https://quiet-escarpment-20816.herokuapp.com/" class="button">YELPCAMP</a>
-                        </div>
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/adash.png" alt="Admin dash">
-
-                        <div class="new__link">
-                            <a href="https://adash.netlify.app" class="button">ADMIN DASHBOARD</a>
-                        </div>
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="Last Project">
-
-                        <div class="new__link">
-                            <a href="#" class="button">VIEW PROJECT</a>
-                        </div>
+                    <div class="new__link">
+                        <a href="https://oluwafemidavid.me" class="button"> PORTFOLIO</a>
                     </div>
                 </div>
-            </section>
+                <div class="work__img">
+                    <img src="assets/img/snow-storm.jpg" alt="weather app">
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact Me</h2>
-                <div class="skills__container bd-grid">
-                    <div>
+                    <div class="new__link">
+                        <a href="https://github.com/Davidxcr/python/blob/master/Weather_Report.py"
+                            class="button">WEATHER APP</a>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/store.jpg" alt="store front">
+
+                    <div class="new__link">
+                        <a href="https://sleepy-brown-e70e1b.netlify.app/" class="button">STORE APP</a>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work4.jpg" alt="YelpCamp">
+
+                    <div class="new__link">
+                        <a href="https://quiet-escarpment-20816.herokuapp.com/" class="button">YELPCAMP</a>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/adash.png" alt="Admin dash">
+
+                    <div class="new__link">
+                        <a href="https://adash.netlify.app" class="button">ADMIN DASHBOARD</a>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work6.jpg" alt="Last Project">
+
+                    <div class="new__link">
+                        <a href="#" class="button">VIEW PROJECT</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="skills__container bd-grid">
+                <div>
                     <h2 class="contact__subtitle">Say Hi!</h2><br>
                     <p class="contact__text">
                         Send me a message here or Connect with me on any of my social media platforms.
                     </p><br>
                     <div class="contact__data">
-                        <a class="typeform-share button" href="https://form.typeform.com/to/ZO1YiCbr?typeform-medium=embed-snippet" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#FF8300;color:white;cursor:pointer;font-family:'Poiret One';font-size:20px;line-height:50px;text-align:center;margin:10px;height:50px;width:300px;padding:0px 33px;border-radius:18px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-size="100" target="_blank">Contact Me </a>
-                        <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                        <a class="typeform-share button"
+                            href="https://form.typeform.com/to/ZO1YiCbr?typeform-medium=embed-snippet" data-mode="popup"
+                            style="display:inline-block;text-decoration:none;background-color:#FF8300;color:white;cursor:pointer;font-family:'Poiret One';font-size:20px;line-height:50px;text-align:center;margin:10px;height:50px;width:300px;padding:0px 33px;border-radius:18px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+                            data-size="100" target="_blank">Contact Me </a>
+                        <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })() </script>
                     </div>
                     <br>
                     <div class="home_social">
-                        <a href="https://www.linkedin.com/in/oluwafemidavid/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                        <a href="https://www.instagram.com/davidcodes_/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                        <a href="https://github.com/Davidxcr" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
-                        <a href="https://twitter.com/davidcodes_" class="home__social-icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
-                        <a href="https://facebook.com/codes.david" class="home__social-icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
-                        <a href="https://www.tiktok.com/@davidcodes_?_t=8VHCVcRJWu3&_r=1" class="home__social-icon" target="_blank"><i class='bx bxl-tiktok' ></i></a>
-                    </div>
-                </div>  
-                <div>
-                    <img src="assets/img/contact.png" alt="" class="contact__img">
+                        <a href="https://www.linkedin.com/in/oluwafemidavid/" target="_blank"
+                            class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/davidcodes_/" target="_blank" class="home__social-icon"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://github.com/Davidxcr" class="home__social-icon" target="_blank"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://twitter.com/davidcodes_" class="home__social-icon" target="_blank"><i
+                                class='bx bxl-twitter'></i></a>
+                        <a href="   https://facebook.com/codes.david" class="home__social-icon" target="_blank"><i
+                                class='bx bxl-facebook'></i></a>
+                        <a href="https://www.tiktok.com/@davidcodes_?_t=8VHCVcRJWu3&_r=1" class="home__social-icon"
+                            target="_blank"><i class='bx bxl-tiktok'></i></a>
                     </div>
                 </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Oluwafemi David - 2022</p>
-            <div class="footer__social">
-                <a href="https://github.com/Davidxcr" class="footer__icon"><i class="bx bxl-github"></i></a>
-                <a href="https://www.facebook.com/codes.david" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/davidcodes_" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="htttps://www.twitter.com/davidcodes_" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-                <a href="https://www.linkedin.com/in/oluwafemidavid/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://www.tiktok.com/@davidcodes_?_t=8VHCVcRJWu3&_r=1" class="footer__icon" target="_blank"><i class='bx bxl-tiktok'></i></a>
+                <div>
+                    <img src="assets/img/contact.png" alt="" class="contact__img">
+                </div>
             </div>
-        </footer>
+        </section>
+    </main>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Oluwafemi David - 2022</p>
+        <div class="footer__social">
+            <a href="https://github.com/Davidxcr" class="footer__icon"><i class="bx bxl-github"></i></a>
+            <a href="https://www.facebook.com/codes.david" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/davidcodes_" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="htttps://www.twitter.com/davidcodes_" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/oluwafemidavid/" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://www.tiktok.com/@davidcodes_?_t=8VHCVcRJWu3&_r=1" class="footer__icon" target="_blank"><i
+                    class='bx bxl-tiktok'></i></a>
+        </div>
+    </footer>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
