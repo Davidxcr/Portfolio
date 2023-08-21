@@ -55,3 +55,5 @@ sr.reveal('.portfolio__img',{interval: 120});
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__img',{interval: 200});
+
+Intercom('startTour', 450829)
